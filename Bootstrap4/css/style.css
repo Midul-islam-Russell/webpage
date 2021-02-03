@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #616971;
+    
+}
+
+
+/* =========== nav =============== */
+.navbar{
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .27);
+    z-index: 1;
+}
+nav.navbar{
+    background: #1F2235 !important;
+}
+.navbar-brand h2{
+    font-size: 2.5rem;
+    font-weight: 600 !important;
+}
+.nav-item{
+    padding: .5rem;
+}
+.nav-link{
+    color: #fff;
+    
+}
+.nav-link:hover{
+    color: red;
+    transition: .5s;
+}
+/* ============= nav end============ */
+
+
+
+/* ========= img carousel=========== */
+.image-carousel{
+   background: #1F2235;
+   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .27);
+}
+.icon .fab{
+    padding: 12px;
+    border: 3px solid red;
+    border-radius: 100%;
+    /* margin-left: .8rem; */
+    color: #fff;
+    word-spacing: 30px !important;
+}
+.icon .fab:hover{
+    background: red;
+    transition: .5s;
+}
+.conten h1 {
+    font-size: 3rem !important;
+    color: #fff;
+    font-weight: 800;
+    padding: 9px;
+}
+.conten p{
+    color: #e0e0e0;
+    font-size: 28px;
+    padding: 10px;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .6rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 25px;
+    border-radius: 4.3rem;
+    border: 2px solid red;
+}
+.fa-youtube{
+    font-size: 3.2rem;
+    margin-left: 15px;
+    color: red;
+}
+/* ========= img end=========== */
+
+
+/* ========== Services ============*/
+.services{
+    background:#1f2235fa;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .27);
+
+}
+.services_into h4{
+    font-size: 0.9rem;
+    margin: 0;
+    color: red;
+}
+.services_into  h1{
+font-size: 2.5rem;
+font-weight: 600;
+color: #ffffffd6;
+padding: 10px;
+}
+
+.services_into p{
+    font-size: 18px;
+    color: #ffffffc7;
+}
+.card {
+    background: #1f2235;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .27);
+}
+.card.my-3 {
+    padding: 48px 15px;
+}
+.card .fab,.fas,.far
+{
+font-size: 3rem;
+padding: 15px;
+color: #ec5f5f ;
+}
+
+.card h2{
+font-size: 20px;
+padding: 12px;
+color: #fff;
+}
+
+.card p {
+    padding: 0px 45px 0px 10px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.card:hover{
+    background: #c49d9d;
+    transition: .5s;
+    color: #fff;
+}
+
+hr.w-15{
+    border: 2px red;
+    background: red;
+    width: 35px !important;
+}
+/* ========== Services end ============*/
+
+/* ================ About ========================= */
+.about{
+    background: #1f2235;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .27);
+}
+.hi-there h2{
+    color: #fff;
+}
+.hi-there p{
+    color: #fff;
+}
+.sp_h span{
+    color: red;
+}
+.sp_h{
+    color: #fff;
+}
+
+/* ================ About emd ========================= */
+
+
+
+ /* =================== Work Together =================== */
+.woek_together{
+    background: #292c3e;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .27);
+}
+ /* =================== Work Together end =================== */
+
+ /* ====== Portfolio Showcase end ======= */
+.protfolio{
+    background: #232533;
+}
+.portioli-btn{
+    background: #484343;
+    border: none;
+}
+.portioli-btn:hover{
+    
+    color: #fff;
+    background: red;
+    transition: .5s;
+}
+.box img {
+    position: relative;
+    width: 367px;
+    height: 224px;
+    margin: 11px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .27);
+}
+/* ====== Portfolio Showcase end ======= */
+
+/* =============== Pricing Plan ============ */
+.pricing{
+    background:#292c3e;
+}
+.card-body {
+    background: #191c2b;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+/* =============== Pricing Plan end ============ */
+
+/* ============= Footer start============= */
+
+footer{
+    background-color: #1f2235;
+}
+footer .m_l{
+    margin-right: 2px solid red;
+}
+.a-c.text-white {
+    padding: 13px;
+}
+.fab.fa-facebook,
+.fab.fa-twitter,
+.fab.fa-whatsapp,
+.fab.fa-github,
+.fab.fa-youtube-square {
+    font-size: 30px;
+    padding: 5px;
+    color: aqua;
+}
+
+.far.fa-copyright {
+    font-size: 20px;
+}
+
+
+
+
